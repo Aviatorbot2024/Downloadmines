@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Download do Bot do Mines</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #1e1e1e; /* Preto carvão */
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      background: #121212; /* Preto carvão mais claro */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      margin: 20px;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #00bfff; /* Azul diamante */
+    }
+    .description {
+      margin: 20px 0;
+      font-size: 18px;
+      text-align: center;
+      color: #ccc;
+    }
+    .download-btn {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      font-size: 18px;
+      color: #fff;
+      background-color: #00bfff; /* Azul diamante */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px 0;
+      text-align: center;
+    }
+    .download-btn:hover {
+      background-color: #009acd; /* Azul diamante mais escuro */
+    }
+    .comments-section {
+      margin-top: 30px;
+    }
+    .comment {
+      background: #333;
+      border-radius: 5px;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .rating {
+      color: #f1c40f; /* Amarelo para estrelas */
+    }
+    .downloads-info {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 16px;
+    }
+    .loader {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      align-items: center;
+      justify-content: center;
+    }
+    .loader div {
+      border: 8px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 8px solid #00bfff; /* Azul diamante */
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Baixe o Bot do Mines</h1>
+    <div class="description">
+      Melhor preditor do mines para parar de perder dinheiro nas apostas <br>
+      <strong>(ATENÇÃO CRIE UMA CONTA NOVA DENTRO DO PREDICTOR PARA ELE FUNCIONAR SATISFATORIAMENTE)</strong>
+    </div>
+    <button class="download-btn" id="downloadBtn">Download MINES PREDITOR MOÇAMBIQUE</button>
+
+    <div class="downloads-info">
+      <p>Mais de 1000 downloads!</p>
+    </div>
+
+    <div class="comments-section">
+      <h2>Comentários</h2>
+      <!-- Adiciona 22 comentários com nomes moçambicanos -->
+      <div class="comment">Larissa Matola: Ótimo bot! Muito útil. <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">João Mavango: Funcionou perfeitamente para mim. <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Ana Bicego: Excelente desempenho. <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Miguel Gimo: Recomendado para quem gosta de Mines. <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Rita Muchanga: Ótima ferramenta! <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Carlos Machava: Muito bom, recomendo. <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Marta Timane: Funcionou bem para mim. <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Pedro Munhango: Excelente! <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Sofia Chimoio: Boa ferramenta. <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Ricardo Simbine: Muito útil! <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Inês Nyoni: Funciona bem. <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Afonso Machaia: Recomendado! <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Helena Massingue: Ótimo desempenho. <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">João Mandlate: Muito bom! <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Fatima Zimba: Excelente para o jogo. <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Alfredo Bico: Funcionou perfeitamente. <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Marta Quissico: Muito bom! <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Joaquim Muatuca: Excelente bot. <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Lúcia Cuco: Recomendo! <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Antonio Coelho: Ótima ferramenta. <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Sónia Bulu: Muito útil para o jogo. <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Luis Figueiredo: Excelente bot! <span class="rating">⭐⭐⭐⭐⭐</span></div>
+      <div class="comment">Célia Chongo: Funciona muito bem. <span class="rating">⭐⭐⭐⭐</span></div>
+      <div class="comment">Jorge Macia: Recomendado para todos. <span class="rating">⭐⭐⭐⭐⭐</span></div>
+    </div>
+  </div>
+
+  <div class="loader" id="loader">
+    <div></div>
+  </div>
+
+  <script>
+    document.getElementById('downloadBtn').addEventListener('click', function() {
+      document.getElementById('loader').style.display = 'flex';
+
+      // Simula um delay de download
+      setTimeout(function() {
+        document.getElementById('loader').style.display = 'none';
+        // Redireciona para o link de download do APK
+        window.location.href = 'MINES_PREDITOR_MOÇAMBIQUE.apk'; // Substitua pelo link real
+      }, 2000); // 2 segundos de simulação de processamento
+    });
+  </script>
+
+</body>
+</html>
